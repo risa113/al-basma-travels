@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ALBASMA Tours &amp; Travels | Ultra-Luxury Pilgrimage &amp; Bespoke International Expeditions</title>
+<!-- Google Fonts & Material Symbols -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration verbatim -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-tertiary": "#ffffff",
+            "surface": "#f8faf8",
+            "surface-container-high": "#e6e9e7",
+            "tertiary": "#172527",
+            "surface-container-low": "#f2f4f2",
+            "surface-variant": "#e1e3e1",
+            "on-primary-container": "#7baaae",
+            "primary": "#00282b",
+            "on-surface-variant": "#404849",
+            "surface-tint": "#36666a",
+            "outline-variant": "#c0c8c9",
+            "primary-fixed": "#baebf0",
+            "on-tertiary-fixed-variant": "#3b494a",
+            "on-secondary": "#ffffff",
+            "inverse-on-surface": "#eff1ef",
+            "on-secondary-container": "#196f70",
+            "outline": "#707979",
+            "primary-fixed-dim": "#9fcfd3",
+            "on-background": "#191c1b",
+            "error": "#ba1a1a",
+            "surface-dim": "#d8dad9",
+            "primary-container": "#073f43",
+            "on-tertiary-container": "#95a5a6",
+            "surface-bright": "#f8faf8",
+            "secondary-container": "#a3f0f0",
+            "secondary-fixed": "#a3f0f0",
+            "on-primary-fixed": "#002022",
+            "on-secondary-fixed": "#002020",
+            "tertiary-fixed-dim": "#bacacb",
+            "background": "#f8faf8",
+            "on-primary": "#ffffff",
+            "error-container": "#ffdad6",
+            "on-tertiary-fixed": "#0f1e1f",
+            "tertiary-fixed": "#d5e6e7",
+            "surface-container-highest": "#e1e3e1",
+            "on-primary-fixed-variant": "#1c4e52",
+            "on-error": "#ffffff",
+            "secondary": "#0e696a",
+            "tertiary-container": "#2d3b3c",
+            "on-secondary-fixed-variant": "#004f50",
+            "inverse-primary": "#9fcfd3",
+            "surface-container-lowest": "#ffffff",
+            "on-surface": "#191c1b",
+            "on-error-container": "#93000a",
+            "secondary-fixed-dim": "#88d3d4",
+            "surface-container": "#eceeec",
+            "inverse-surface": "#2e3130"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "gutter-mobile": "1rem",
+            "space-lg": "2rem",
+            "space-xs": "0.375rem",
+            "space-md": "1.25rem",
+            "space-xl": "3.5rem",
+            "margin": "3rem",
+            "gutter": "1.5rem",
+            "space-sm": "0.75rem",
+            "margin-mobile": "1.25rem"
+          },
+          "fontFamily": {
+            "label-lg": ["Plus Jakarta Sans"],
+            "headline-md": ["Noto Serif"],
+            "display-hero-mobile": ["Noto Serif"],
+            "headline-lg": ["Noto Serif"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "label-md": ["Plus Jakarta Sans"],
+            "body-xl": ["Plus Jakarta Sans"],
+            "body-md": ["Plus Jakarta Sans"],
+            "headline-xl": ["Noto Serif"],
+            "label-sm": ["Plus Jakarta Sans"],
+            "headline-sm": ["Noto Serif"],
+            "display-hero": ["Noto Serif"],
+            "headline-xl-mobile": ["Noto Serif"]
+          },
+          "fontSize": {
+            "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.06em", "fontWeight": "600" }],
+            "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "0em", "fontWeight": "500" }],
+            "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "0em", "fontWeight": "500" }],
+            "body-lg": ["16px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" }],
+            "body-xl": ["18px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "body-md": ["14px", { "lineHeight": "22px", "letterSpacing": "0.01em", "fontWeight": "400" }],
+            "headline-xl": ["40px", { "lineHeight": "52px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.12em", "fontWeight": "700" }],
+            "headline-sm": ["20px", { "lineHeight": "28px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "display-hero": ["56px", { "lineHeight": "68px", "letterSpacing": "-0.02em", "fontWeight": "400" }],
+            "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "400" }]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    
+    @keyframes marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+    
+    .animate-marquee {
+      display: flex;
+      width: 200%;
+      animation: marquee 35s linear infinite;
+    }
+    .animate-marquee:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes goldShimmer {
+      0% { background-position: -200% center; }
+      100% { background-position: 200% center; }
+    }
+
+    .shimmer-gold {
+      background: linear-gradient(90deg, #F7F9F7 0%, #D4AF37 30%, #FFFFFF 50%, #E5C378 70%, #F7F9F7 100%);
+      background-size: 200% auto;
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+      animation: goldShimmer 7s ease-in-out infinite;
+    }
+
+    .glass-editorial {
+      background: rgba(8, 44, 48, 0.78);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(212, 175, 55, 0.28);
+      box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.15), 0 20px 40px -15px rgba(2, 37, 40, 0.4);
+    }
+
+    .glass-light {
+      background: rgba(248, 250, 248, 0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(191, 207, 208, 0.45);
+      box-shadow: 0 10px 30px -10px rgba(0, 40, 43, 0.08);
+    }
+
+    .hero-slide {
+      transition: opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1), transform 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md antialiased overflow-x-hidden selection:bg-secondary-fixed selection:text-primary">
+<!-- ==================== 1. TOP UTILITY BAR & LIVE TICKER ==================== -->
+<header class="w-full bg-primary text-secondary-fixed border-b border-secondary/20 relative z-50">
+<div class="max-w-7xl mx-auto px-4 md:px-6 py-2.5 flex flex-wrap items-center justify-between gap-3 text-label-sm font-label-sm">
+<!-- India & Saudi Phone Desks -->
+<div class="flex items-center flex-wrap gap-4 text-surface-container-high">
+<span class="flex items-center gap-1.5 text-secondary-fixed">
+<span class="material-symbols-outlined text-[15px]">call</span>
+<span>India Desk:</span>
+<a class="hover:text-secondary-fixed transition-colors font-semibold tracking-wider text-surface" href="tel:+919677312228">+91 96773 12228</a>
+<span class="text-outline">/</span>
+<a class="hover:text-secondary-fixed transition-colors font-semibold tracking-wider text-surface" href="tel:+919789752100">+91 97897 52100</a>
+<span class="text-outline">/</span>
+<a class="hover:text-secondary-fixed transition-colors font-semibold tracking-wider text-surface" href="tel:+918610108633">+91 86101 08633</a>
+</span>
+<span class="hidden lg:inline text-outline">|</span>
+<span class="flex items-center gap-1.5 text-secondary-fixed">
+<span class="material-symbols-outlined text-[15px]">support_agent</span>
+<span>Saudi 24/7 Desk:</span>
+<a class="hover:text-secondary-fixed transition-colors font-semibold tracking-wider text-surface" href="tel:+966530952100">+966 530952100</a>
+</span>
+</div>
+<!-- Email & WhatsApp Direct Actions -->
+<div class="flex items-center gap-4 text-surface-container-high">
+<a class="flex items-center gap-1 hover:text-secondary-fixed transition-colors" href="mailto:albasmaatour@gmail.com">
+<span class="material-symbols-outlined text-[15px]">mail</span>
+<span class="lowercase tracking-normal font-medium">albasmaatour@gmail.com</span>
+</a>
+<a class="bg-secondary px-2.5 py-1 text-on-secondary rounded flex items-center gap-1 hover:bg-secondary/90 transition-colors shadow-sm font-semibold" href="https://wa.me/919677312228" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[15px]">chat</span>
+<span>WhatsApp Concierge</span>
+</a>
+</div>
+</div>
+<!-- Live Continuous Marquee Ticker -->
+<div class="bg-tertiary border-t border-secondary/20 overflow-hidden py-1.5 text-xs text-primary-fixed-dim">
+<div class="animate-marquee whitespace-nowrap font-label-sm tracking-wider">
+<span class="inline-block px-4">✦ Direct Ex-South India Flights (Chennai, Trichy, Madurai)</span>
+<span class="inline-block px-4">✦ Haram-Facing 5-Star VIP Accommodations</span>
+<span class="inline-block px-4">✦ Authorized Nusuk &amp; Saudi Visa Desk</span>
+<span class="inline-block px-4">✦ Dedicated Melapalayam Ground Leadership</span>
+<span class="inline-block px-4">✦ 24/7 Makkah &amp; Madinah Concierge Desk</span>
+<span class="inline-block px-4">✦ 100% Transparent Invoicing</span>
+<!-- Duplicate for seamless seamless loop -->
+<span class="inline-block px-4">✦ Direct Ex-South India Flights (Chennai, Trichy, Madurai)</span>
+<span class="inline-block px-4">✦ Haram-Facing 5-Star VIP Accommodations</span>
+<span class="inline-block px-4">✦ Authorized Nusuk &amp; Saudi Visa Desk</span>
+<span class="inline-block px-4">✦ Dedicated Melapalayam Ground Leadership</span>
+<span class="inline-block px-4">✦ 24/7 Makkah &amp; Madinah Concierge Desk</span>
+<span class="inline-block px-4">✦ 100% Transparent Invoicing</span>
+</div>
+</div>
+</header>
+<!-- ==================== 2. LUXURY STICKY NAVIGATION ==================== -->
+<nav class="sticky top-0 z-40 bg-surface/90 dark:bg-primary/90 backdrop-blur-md border-b border-secondary/20 dark:border-secondary-container/20 shadow-sm transition-all duration-300">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<!-- Brand Logo Mark with Arabic Script Complement -->
+<a class="flex flex-col" href="#hero">
+<span class="font-display-hero text-title-lg tracking-tight text-primary dark:text-inverse-primary uppercase font-bold text-xl md:text-2xl leading-none">
+          ALBASMA Tours &amp; Travels
+        </span>
+<span class="text-[11px] tracking-widest text-secondary font-label-md flex items-center gap-2 mt-1">
+<span>البسمة للسياحة والسفر</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-normal text-on-surface-variant">Melapalayam · Tirunelveli</span>
+</span>
+</a>
+<!-- Desktop Navigation Links verbatim from Shared Components -->
+<div class="hidden lg:flex items-center space-x-7 font-label-md text-label-md">
+<a class="text-secondary dark:text-secondary-fixed border-b-2 border-secondary dark:border-secondary-fixed pb-1 font-semibold transition-colors duration-200" href="#sacred">Hajj &amp; Umrah</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors pb-1 border-b-2 border-transparent hover:border-secondary" href="#destinations">International Tours</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors pb-1 border-b-2 border-transparent hover:border-secondary" href="#services">Visa &amp; Attestation</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors pb-1 border-b-2 border-transparent hover:border-secondary" href="#packages">Flight Ticketing</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors pb-1 border-b-2 border-transparent hover:border-secondary" href="#leadership">About Us</a>
+</div>
+<!-- Action Cluster -->
+<div class="hidden md:flex items-center gap-4">
+<a class="flex items-center gap-1.5 text-label-md font-label-md text-primary hover:text-secondary transition-colors" href="tel:+919677312228">
+<span class="material-symbols-outlined text-lg text-secondary">call</span>
+<span>+91 96773 12228</span>
+</a>
+<a class="bg-primary-container hover:bg-secondary text-secondary-fixed border border-secondary-fixed/40 px-5 py-2.5 rounded font-label-md text-label-md tracking-wider uppercase transition-all duration-300 shadow-sm flex items-center gap-1.5" href="#booking-console">
+<span>Plan Your Journey</span>
+<span class="material-symbols-outlined text-[16px]">north_east</span>
+</a>
+</div>
+<!-- Mobile Hamburger Button -->
+<button aria-label="Toggle navigation menu" class="lg:hidden p-2 text-primary focus:outline-none" id="mobileMenuBtn">
+<span class="material-symbols-outlined text-3xl" id="menuIcon">menu</span>
+</button>
+</div>
+<!-- Mobile Slide-Down Menu Drawer -->
+<div class="hidden lg:hidden bg-primary text-surface px-6 pt-4 pb-8 border-t border-secondary/20 shadow-2xl transition-all duration-300" id="mobileDrawer">
+<div class="flex flex-col space-y-4 font-label-md text-label-md">
+<a class="mobile-nav-link text-secondary-fixed font-semibold py-2 border-b border-secondary/20 flex justify-between items-center" href="#sacred">
+<span>Hajj &amp; Umrah</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+<a class="mobile-nav-link text-surface-container-high py-2 border-b border-secondary/20 flex justify-between items-center" href="#destinations">
+<span>International Tours</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+<a class="mobile-nav-link text-surface-container-high py-2 border-b border-secondary/20 flex justify-between items-center" href="#services">
+<span>Visa &amp; Attestation</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+<a class="mobile-nav-link text-surface-container-high py-2 border-b border-secondary/20 flex justify-between items-center" href="#packages">
+<span>Flight Ticketing</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+<a class="mobile-nav-link text-surface-container-high py-2 border-b border-secondary/20 flex justify-between items-center" href="#leadership">
+<span>About Us</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+<div class="pt-4 flex flex-col gap-3">
+<a class="mobile-nav-link text-center w-full bg-secondary text-on-secondary py-3 rounded font-label-md uppercase tracking-wider font-semibold" href="#booking-console">
+            Plan Your Journey
+          </a>
+<a class="text-center w-full border border-secondary-fixed/40 text-secondary-fixed py-2.5 rounded font-label-md flex items-center justify-center gap-2" href="tel:+919677312228">
+<span class="material-symbols-outlined text-sm">call</span>
+<span>Direct Call Melapalayam: +91 96773 12228</span>
+</a>
+</div>
+</div>
+</div>
+</nav>
+<!-- ==================== 3. ANIMATIC HERO SECTION (3-SLIDE CAROUSEL) ==================== -->
+<section class="relative w-full min-h-[680px] lg:h-[860px] bg-primary overflow-hidden flex items-center" id="hero">
+<!-- Slide 1: Sacred Pilgrimage (Active) -->
+<div class="hero-slide absolute inset-0 w-full h-full opacity-100 scale-100 transition-all duration-1000 ease-out z-10" id="slide-0">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A grand panoramic photograph of the holy Kaaba in Masjid al-Haram at twilight, surrounded by thousands of pilgrims moving in deep devotion. The sky is a deep oceanic indigo and midnight teal, accented by golden luminaires from the minarets and polished marble surfaces reflecting soft golden light in an ultra-luxury editorial travel style." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBvTO_ncvlDZuXjR5NOqQXTK6KPXUO08rWGAI_mIzWqcTMDuRi39wzEhF2uW6OwMWPMTKarfQ4UMVkWAhIFsJcBGY_j9RdpgzOuL03t9pmZhDOpRVjgmD96eDG3wtShVHtQlHvmMYGBgZ3SzGJfNhCoeEyeFpo_egehyYoc84jYgOEGSO9v-B1vvpSCimLovuhMp1MKxlasAvK_EYp6go7CWjFWXuBKjE_4pjqJB07RLxQwqiH2ukgTrrgw1onmlTqCEwP-hg4WRHQh')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/70 to-primary/30"></div>
+<div class="absolute inset-0 bg-radial from-transparent via-primary/40 to-primary/80"></div>
+</div>
+<!-- Slide 2: Cappadocia & Istanbul -->
+<div class="hero-slide absolute inset-0 w-full h-full opacity-0 scale-105 pointer-events-none transition-all duration-1000 ease-out z-0" id="slide-1">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Cinematic wide view of majestic Cappadocia fairy chimneys at golden sunrise with dozens of elegant hot air balloons floating silently in the atmospheric misty morning. Deep teal shadows meet champagne gold rays of morning sunlight, exuding luxury heritage exploration and bespoke international travel sophistication." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCp501km9OE2xPbu7Pm71akEsAUfRS95tGVhdVSLY4YuhRbNzwt7NgOWNi0iynw2Mk-GTk5PnWPlJHEy40slWsYerZNzDwx9Xwb-9xIse1ZIajWW3nd-aKqetARaHDIsaC9t4a7kGQ6E_7YLmVrOKktaoN0cDsis8rFYxsXQ46fzipWkJR26iFWpkojybovGksNXN2f1K0uqlZwXfrtRSBvmRy9m7yEKtne3pZhcZq8cv2XPnJUdql_Tl66nTAFiYYiran2_L0ph9bh')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/75 to-primary/30"></div>
+</div>
+<!-- Slide 3: Imperial Dubai & Modern Metropolises -->
+<div class="hero-slide absolute inset-0 w-full h-full opacity-0 scale-105 pointer-events-none transition-all duration-1000 ease-out z-0" id="slide-2">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="An ultra-luxury editorial twilight vista of Dubai Marina with sleek private yachts gliding through deep teal waters. Iconic geometric skyscrapers and illuminated architectural towers rise under a serene evening twilight sky, rendered in rich champagne gold reflections and cool oceanic blues." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBp7R16S8axc4BJ9JA356OjNOTYRch3LAZ1ffdwFtLBZ0to3W3Vhq3vg3Bi50WgsHDWa0AlVC8Ldl0a8nISkfHg1iQQQ2GGOwUkIvS_btghINbBV4I1_rk3u9clCzsoqyFaEbX_L_zf3yCu3nug4fXKFS8nF_DCeM9Qt5Z5ZgRQghaAQgbVvX1nfLjQEmCW4YXbG284Xc7fyRHci9A6KoW-S34UcQsSKNXKWIgqQm--OXPje2C_YlrfQycHzO1ToLIV-txivlUcTT-t')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/75 to-primary/30"></div>
+</div>
+<!-- Overlapping Typographic Showcase & Glass Cards -->
+<div class="relative z-20 max-w-7xl mx-auto px-6 w-full py-12 flex flex-col justify-between h-full">
+<div class="pt-8">
+<div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-primary-container/80 border border-secondary-fixed/30 backdrop-blur-md mb-6">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed animate-ping"></span>
+<span class="text-secondary-fixed font-label-sm text-label-sm uppercase tracking-widest font-semibold">
+            Licensed Pilgrimage &amp; Luxury Travel Agency
+          </span>
+</div>
+</div>
+<!-- Slide Dynamic Content Container -->
+<div class="max-w-3xl my-auto">
+<h1 class="font-display-hero text-headline-xl-mobile md:text-display-hero leading-tight text-surface font-normal mb-5 drop-shadow-md" id="heroTitle">
+          DISCOVER THE SACRED. <br/>
+<span class="shimmer-gold italic font-serif">JOURNEY WITH REVERENCE.</span>
+</h1>
+<p class="font-body-lg text-body-lg md:text-body-xl text-surface-container-high max-w-2xl font-light mb-8 leading-relaxed" id="heroSubtitle">
+          Curated 5-Star VIP Hajj &amp; Umrah packages with Haramain high-speed rail, clock tower frontages, and direct on-ground leadership from Melapalayam.
+        </p>
+<div class="flex flex-wrap items-center gap-4">
+<a class="bg-primary-container hover:bg-secondary text-secondary-fixed border border-secondary-fixed/50 px-8 py-3.5 rounded font-label-md text-label-md tracking-wider uppercase transition-all duration-300 shadow-lg flex items-center gap-2" href="#sacred">
+<span>Explore Sacred Packages</span>
+<span class="material-symbols-outlined text-[18px]">travel_explore</span>
+</a>
+<a class="glass-editorial text-surface hover:text-secondary-fixed px-7 py-3.5 rounded font-label-md text-label-md tracking-wider uppercase transition-all duration-300 flex items-center gap-2" href="#destinations">
+<span>Global Escapes</span>
+<span class="material-symbols-outlined text-[18px]">public</span>
+</a>
+</div>
+</div>
+<!-- Carousel Navigation Controls & Live Slide Indicator -->
+<div class="flex items-center justify-between pt-6 border-t border-secondary-fixed/20 text-surface">
+<div class="flex items-center gap-6">
+<!-- Slide Counter -->
+<div class="font-label-lg text-label-lg tracking-widest text-secondary-fixed flex items-center gap-2">
+<span class="text-xl font-bold font-headline-sm" id="currentSlideNum">01</span>
+<span class="text-outline-variant">/</span>
+<span class="text-surface-container-high text-xs">03</span>
+</div>
+<!-- Slide Indicator Dots -->
+<div class="flex items-center gap-2">
+<button aria-label="Slide 1" class="slide-dot w-8 h-1 bg-secondary-fixed rounded transition-all duration-300" onclick="setSlide(0)"></button>
+<button aria-label="Slide 2" class="slide-dot w-3 h-1 bg-surface-variant/40 rounded transition-all duration-300" onclick="setSlide(1)"></button>
+<button aria-label="Slide 3" class="slide-dot w-3 h-1 bg-surface-variant/40 rounded transition-all duration-300" onclick="setSlide(2)"></button>
+</div>
+</div>
+<!-- Chevron Controls -->
+<div class="flex items-center gap-2">
+<button aria-label="Previous slide" class="w-11 h-11 rounded border border-secondary-fixed/30 bg-primary/60 backdrop-blur-md text-surface hover:text-secondary-fixed hover:border-secondary-fixed flex items-center justify-center transition-all duration-200" onclick="prevSlide()">
+<span class="material-symbols-outlined text-[20px]">west</span>
+</button>
+<button aria-label="Next slide" class="w-11 h-11 rounded border border-secondary-fixed/30 bg-primary/60 backdrop-blur-md text-surface hover:text-secondary-fixed hover:border-secondary-fixed flex items-center justify-center transition-all duration-200" onclick="nextSlide()">
+<span class="material-symbols-outlined text-[20px]">east</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 4. INTEGRATED BOOKING CONSOLE ==================== -->
+<section class="relative -mt-6 md:-mt-10 z-30 max-w-7xl mx-auto px-6" id="booking-console">
+<div class="glass-editorial rounded-lg p-6 md:p-8 shadow-2xl">
+<form class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-end" onsubmit="event.preventDefault();">
+<!-- Field 1: Category -->
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed mb-2 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">category</span>
+<span>Package Category</span>
+</label>
+<div class="relative">
+<select class="w-full bg-tertiary/90 border border-outline-variant/40 text-surface text-body-md rounded px-3.5 py-3 focus:outline-none focus:border-secondary-fixed transition-colors appearance-none cursor-pointer">
+<option selected="" value="umrah">Hajj &amp; Umrah Luxury Pilgrimage</option>
+<option value="international">International Bespoke Holiday</option>
+<option value="domestic">Domestic Exclusive Tours</option>
+<option value="flights">Global Flight Ticketing &amp; Charters</option>
+<option value="visa">Saudi Tourist &amp; Umrah Visas</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-secondary-fixed pointer-events-none text-lg">expand_more</span>
+</div>
+</div>
+<!-- Field 2: Hub -->
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed mb-2 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">flight_takeoff</span>
+<span>Departure Hub</span>
+</label>
+<div class="relative">
+<select class="w-full bg-tertiary/90 border border-outline-variant/40 text-surface text-body-md rounded px-3.5 py-3 focus:outline-none focus:border-secondary-fixed transition-colors appearance-none cursor-pointer">
+<option selected="" value="chennai">Chennai International (MAA)</option>
+<option value="trichy">Tiruchirappalli (TRZ) Direct</option>
+<option value="madurai">Madurai Airport (IXM)</option>
+<option value="bengaluru">Bengaluru Kempegowda (BLR)</option>
+<option value="kochi">Cochin International (COK)</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-secondary-fixed pointer-events-none text-lg">expand_more</span>
+</div>
+</div>
+<!-- Field 3: Travel Month -->
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed mb-2 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">calendar_month</span>
+<span>Travel Window</span>
+</label>
+<div class="relative">
+<input class="w-full bg-tertiary/90 border border-outline-variant/40 text-surface text-body-md rounded px-3.5 py-2.5 focus:outline-none focus:border-secondary-fixed transition-colors" type="month" value="2025-04"/>
+</div>
+</div>
+<!-- CTA Button -->
+<div>
+<button class="w-full bg-primary hover:bg-secondary text-secondary-fixed border border-secondary-fixed/60 py-3 px-4 rounded font-label-md text-label-md tracking-wider uppercase transition-all duration-300 flex items-center justify-center gap-2 shadow-md" onclick="document.getElementById('inquiryModal').scrollIntoView({behavior: 'smooth'})" type="button">
+<span>Explore Itineraries</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</form>
+</div>
+</section>
+<!-- ==================== 5. SACRED JOURNEYS SPOTLIGHT (HAJJ & UMRAH VIP) ==================== -->
+<section class="max-w-7xl mx-auto px-6 py-24" id="sacred">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest mb-3">
+<span class="material-symbols-outlined text-base">verified</span>
+<span>Government Registered &amp; Authorized Pilgrimage Stewardship</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-primary font-normal leading-tight">
+        YOUR SACRED JOURNEY DESERVES <br/>
+<span class="italic text-secondary font-serif">THE HIGHEST REVERENCE</span>
+</h2>
+<div class="w-20 h-0.5 bg-secondary mx-auto my-5"></div>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+        Every detail of your pilgrimage is curated for profound spiritual peace—from frontline luxury suites overlooking the holy sanctuaries to our native Tamil and Urdu speaking scholarly guides.
+      </p>
+</div>
+<!-- 4 Luxury Pillars Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-lowest border border-outline-variant/30 rounded p-6 hover:shadow-xl transition-all duration-300 group">
+<div class="w-14 h-14 rounded bg-primary-container text-secondary-fixed flex items-center justify-center mb-6 group-hover:bg-secondary transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl">hotel</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">Haramain 5-Star Suites</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-4">
+          Direct courtyard proximity at Makkah Clock Tower (Fairmont, Swissôtel, Pullman Zamzam) &amp; Madinah Oberoi and Dar Al Taqwa.
+        </p>
+<div class="text-xs uppercase tracking-wider text-secondary font-semibold flex items-center gap-1">
+<span>Courtyard Facing</span>
+<span class="material-symbols-outlined text-sm">check_circle</span>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-lowest border border-outline-variant/30 rounded p-6 hover:shadow-xl transition-all duration-300 group">
+<div class="w-14 h-14 rounded bg-primary-container text-secondary-fixed flex items-center justify-center mb-6 group-hover:bg-secondary transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl">connecting_airports</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">Direct Flight Charters</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-4">
+          Seamless departures from Chennai, Tiruchirappalli &amp; Madurai with pre-arranged baggage handling, meals, and group check-ins.
+        </p>
+<div class="text-xs uppercase tracking-wider text-secondary font-semibold flex items-center gap-1">
+<span>Saudi Airlines &amp; Flynas</span>
+<span class="material-symbols-outlined text-sm">check_circle</span>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-lowest border border-outline-variant/30 rounded p-6 hover:shadow-xl transition-all duration-300 group">
+<div class="w-14 h-14 rounded bg-primary-container text-secondary-fixed flex items-center justify-center mb-6 group-hover:bg-secondary transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl">directions_car</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">Private GMC Transfers</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-4">
+          VIP private air-conditioned GMC Yukon and Mercedes fleet for airport pickups, intercity transfers, and Haramain express rail tickets.
+        </p>
+<div class="text-xs uppercase tracking-wider text-secondary font-semibold flex items-center gap-1">
+<span>Chauffeured Comfort</span>
+<span class="material-symbols-outlined text-sm">check_circle</span>
+</div>
+</div>
+<!-- Pillar 4 -->
+<div class="bg-surface-container-lowest border border-outline-variant/30 rounded p-6 hover:shadow-xl transition-all duration-300 group">
+<div class="w-14 h-14 rounded bg-primary-container text-secondary-fixed flex items-center justify-center mb-6 group-hover:bg-secondary transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl">menu_book</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">24/7 Scholar Guidance</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-4">
+          Experienced Aalims accompanying your family step-by-step through Umrah rituals, Badee Ziyarahs, and historical sacred landmarks.
+        </p>
+<div class="text-xs uppercase tracking-wider text-secondary font-semibold flex items-center gap-1">
+<span>Comprehensive Ziyarah</span>
+<span class="material-symbols-outlined text-sm">check_circle</span>
+</div>
+</div>
+</div>
+<!-- Saudi Ground Support Callout Banner -->
+<div class="mt-12 bg-primary rounded p-8 text-surface flex flex-col md:flex-row items-center justify-between gap-6 border border-secondary/30">
+<div class="flex items-center gap-5">
+<div class="w-14 h-14 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-3xl">verified_user</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-surface mb-1">Direct Saudi Ground Concierge with Arabic &amp; Tamil Team</h4>
+<p class="text-surface-container-high text-body-md font-light">Dedicated leadership resident on-ground in Makkah &amp; Madinah during your entire voyage.</p>
+</div>
+</div>
+<div class="flex items-center gap-4 shrink-0">
+<a class="bg-secondary-fixed hover:bg-surface text-primary font-label-md px-6 py-3 rounded uppercase tracking-wider font-semibold transition-colors flex items-center gap-2" href="tel:+966530952100">
+<span class="material-symbols-outlined text-base">call</span>
+<span>+966 530952100</span>
+</a>
+</div>
+</div>
+</section>
+<!-- ==================== 6. CURATED GLOBAL DESTINATIONS (EDITORIAL BENTO GRID) ==================== -->
+<section class="bg-surface-container-low py-24 border-y border-outline-variant/30" id="destinations">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-14">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Imperial Horizons</span>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-primary font-normal mt-2">
+            Curated Global Destinations
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md mt-4 md:mt-0">
+          Handcrafted luxury itineraries across sacred shrines and prestigious global escapes, backed by seamless visa support and dedicated escorts.
+        </p>
+</div>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 auto-rows-[280px]">
+<!-- Bento 1: Makkah & Madinah (Large span) -->
+<div class="md:col-span-2 lg:col-span-2 row-span-2 relative group rounded overflow-hidden shadow-md">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="The illuminated Prophet's Mosque in Madinah Al Munawwarah during peaceful evening hours. Giant umbrella canopies stand tall under a violet dusk sky while green dome glows warmly, captured with high-end architectural framing and deep emerald-teal atmospheric colors." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAahACAg_dKnVG2UaBplC4q1t_-_dGbMF_W4jhAJRsK8utsrQXZCcwOxMQC3CoUTW66VFw83Hzofmnb1krBxOnJL9z5vmUnXPCE2qGlhJqybYfg1b6izG5Dza8TNKV6sK11kvo5bLlly3MURHVbo9HxUv8FKExa3dhr8GYeJlzp_OfGhjSIVZ66aZvh7jVWkKmCFyXRMLup4yVt-qLa38p6u2WtVe4Lk8eImRTqMAJrafUlKDwPLgYvco5n0KfPv4wFeWB3ig650Jjf')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent"></div>
+<div class="absolute top-4 left-4">
+<span class="bg-primary/80 backdrop-blur-md border border-secondary-fixed/40 text-secondary-fixed text-label-sm uppercase tracking-widest px-3 py-1 rounded font-semibold">
+              Sacred Twin Cities
+            </span>
+</div>
+<div class="absolute bottom-6 left-6 right-6">
+<h3 class="font-headline-lg text-headline-lg text-surface font-medium mb-2">Makkah &amp; Madinah Al-Munawwarah</h3>
+<p class="font-body-md text-surface-container-high line-clamp-2 mb-4 font-light">Exclusive Haram frontage hotels, private Ziyarah to Jabal al-Noor, Uhud, and Quba, with VIP railway transfers.</p>
+<a class="inline-flex items-center gap-1.5 text-secondary-fixed font-label-md uppercase tracking-wider text-label-sm hover:underline" href="#inquiryModal">
+<span>View Executive Pilgrimage</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Bento 2: Al Aqsa & Jerusalem -->
+<div class="relative group rounded overflow-hidden shadow-md">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="A striking golden Dome of the Rock in Jerusalem under a clear azure and deep teal morning sky. Ancient stone courtyards illuminated by natural soft daylight, showcasing historical sanctity and profound architectural beauty in high editorial style." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDq3Rl_UTITf2TO0bNEH5cDRM7lp7p0272CZxPGer8nIMD12caGrK95P8IkSENNt8ZGQVC6LU64eijWecNc7UYoBGAkbD2Wp17mzTHZfJsXGzZjr27ujEI358NcjUdGwMri_eumgPb4AIGts8KpAH1x-UY34ldlYpnK4msovB60K8seJYNg5FYkt2Tcwd3Wy_O5je9vz2SWZkTtqZNdL6cQyeqMVFdbIGBJJuins-Ro0WPdmpzBoUcAtm7by6VZMZeFN4PJVYTArH2-')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/30 to-transparent"></div>
+<div class="absolute top-4 left-4">
+<span class="bg-primary/80 backdrop-blur-md text-secondary-fixed text-label-sm uppercase tracking-widest px-2.5 py-1 rounded">
+              Spiritual Legacy
+            </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4">
+<h3 class="font-headline-sm text-headline-sm text-surface font-medium mb-1">Al Aqsa &amp; Jordan</h3>
+<span class="text-xs text-surface-container-high block font-light">3 Shrines Pilgrimage Circuits</span>
+</div>
+</div>
+<!-- Bento 3: Dubai & Emirates Luxe -->
+<div class="relative group rounded overflow-hidden shadow-md">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Luxury yacht chartered in the Dubai Arabian Gulf cruising near the Palm Jumeirah during golden hour. Crystal clear turquoise water reflecting champagne sunlight with iconic luxury skyline visible in the background." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBoUEzDV1qjpHuHLSGhkCmkfQWrsQ6jGb9oYfIeki0om9agAyToyl_qKgN2KMiA3FVfebbD4AI5k0WO4JDiHe3kmmgT0bZqWocRpuooIHWT_f-91z_PJ4gposSstOSEzbiNN0eqUjC7RBF0pBphHZ21F-FV-zJoeWeNBLkGcki21mCrJv7ptNxqOikMhabzkWGjcgp9Q5FAWilSEvWQFlrNz8r5wds2B2p66eYqQGV8MoSX0t0D02wE1ST5HPeW5R7A3cejpL2zEYXe')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/30 to-transparent"></div>
+<div class="absolute top-4 left-4">
+<span class="bg-primary/80 backdrop-blur-md text-secondary-fixed text-label-sm uppercase tracking-widest px-2.5 py-1 rounded">
+              Emirates VIP
+            </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4">
+<h3 class="font-headline-sm text-headline-sm text-surface font-medium mb-1">Dubai &amp; Abu Dhabi</h3>
+<span class="text-xs text-surface-container-high block font-light">Private Desert Safari &amp; Marina</span>
+</div>
+</div>
+<!-- Bento 4: Turkey & Ottoman Heritage -->
+<div class="relative group rounded overflow-hidden shadow-md">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="The majestic Blue Mosque and Hagia Sophia silhouettes overlooking the Bosphorus strait in Istanbul during a dramatic teal and rose-gold sunset with historical ferry boats cruising gently." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCzRQKYTXgGR3ZH19jYVKTC1e1mbZmHK6ZluqbTKrNceaXDSGHJaEo4rtxA4Cd9VgYYYJs1PNxNt-JBGM7FrGk2BC-kgOSCJyAdoOmqnIspFLqf2bu65iSzqr7Df6-YIHMXTTyIdgnsHvVhwIzYUi8PbJq83iLD0DwpiLvSMqGiOIlTYDGAwVI0lydtrPgYXUX5HLu2us3nBAnSrFRrOxGQsOX1oTjKYH3bVep7xQVjMVEp2pfl-UYF_4VuIYCsf_wsI_xVRxRbL2Pg')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/30 to-transparent"></div>
+<div class="absolute top-4 left-4">
+<span class="bg-primary/80 backdrop-blur-md text-secondary-fixed text-label-sm uppercase tracking-widest px-2.5 py-1 rounded">
+              Ottoman Splendor
+            </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4">
+<h3 class="font-headline-sm text-headline-sm text-surface font-medium mb-1">Istanbul &amp; Cappadocia</h3>
+<span class="text-xs text-surface-container-high block font-light">Bosphorus Cruise &amp; Cave Suites</span>
+</div>
+</div>
+<!-- Bento 5: Malaysia & Singapore -->
+<div class="relative group rounded overflow-hidden shadow-md">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="The iconic Petronas Twin Towers in Kuala Lumpur glowing with silver light against a twilight sky, surrounded by verdant tropical palm trees and ambient city illumination in a refined editorial aesthetic." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuACgnQyJ9PMD_a1yjpUKNqvi5OVBeJjvU57NOq6Axb0WTbJhiGh16xVEg6xzXPP4V3ceAucurdl4bKfaHHla17Ygnt6VVmQn8afjNDHhyDF7FgufAM15Oo86RPCpndDGFIs-dK7dRfN1HlrxF9W0AlUVBSm3DoK48iTO6Mx_Ig-MjzdiSkqZsIbF7FDQDUedCNNlrdpg4tyJEh_LEnC4cOH5D6rG7LOxZ9yoDyt1Y29UtYEczbT83wTnXeuSYoXKHbE_ckfn1I2haE-')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/30 to-transparent"></div>
+<div class="absolute top-4 left-4">
+<span class="bg-primary/80 backdrop-blur-md text-secondary-fixed text-label-sm uppercase tracking-widest px-2.5 py-1 rounded">
+              Southeast Asia
+            </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4">
+<h3 class="font-headline-sm text-headline-sm text-surface font-medium mb-1">Malaysia &amp; Singapore</h3>
+<span class="text-xs text-surface-container-high block font-light">Genting Highlands &amp; Sentosa</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 7. SIGNATURE TOUR PACKAGES ==================== -->
+<section class="max-w-7xl mx-auto px-6 py-24" id="packages">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Exquisite Itineraries</span>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-primary font-normal mt-2">
+        Signature Travel Packages
+      </h2>
+<div class="w-16 h-0.5 bg-secondary mx-auto my-4"></div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Transparent pricing, guaranteed 5-star hotel allotments, and complete end-to-end ground management with zero hidden fees.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Package Card 1: Umrah Executive -->
+<div class="bg-surface-container-lowest border border-outline-variant/40 rounded flex flex-col justify-between hover:border-secondary transition-all duration-300 hover:shadow-xl group">
+<div>
+<div class="relative h-52 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Ultra-luxury hotel room interior overlooking the Holy Kaaba and Masjid al-Haram courtyard through expansive floor-to-ceiling glass windows, bathed in gentle morning light with high-end white linens and opulent furnishings." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD2cDEp6Z9Y-XkDjE6xUOi2Bi7sUl8MJykbK-sDeRysX__MH9u-vF2fD00AwSv3jgtasLiI41pe0GVig5Lhr60jqI6q8FWxpYwEPLJs7Vty9TLIHjbPkw_6HcEI6f23UFGMEGYc3ftRAWnvuznji4UkXaoAf7LtUTk1fEcmkQK_s-AJLdA-a8f4Evq8QHlyd0g66Owmgkw7PANvvg1CcsbNKLseROZbAAlANAyRxsnO1dJj-W0RaMBTQPTRyal2f2HNdEcFSPHnrhcu')"></div>
+<div class="absolute top-3 right-3 bg-primary/85 backdrop-blur-md text-secondary-fixed px-3 py-1 rounded font-label-sm text-label-sm uppercase font-semibold border border-secondary-fixed/20">
+              15 Days / 14 Nights
+            </div>
+</div>
+<div class="p-6">
+<span class="text-[11px] font-semibold text-secondary uppercase tracking-widest">Premium Pilgrimage</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-1 mb-3">VIP Umrah Executive</h3>
+<ul class="space-y-2.5 text-body-md text-on-surface-variant mb-6 text-sm">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>Swissôtel Makkah (0 Meters)</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>Dar Al Taqwa Madinah</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>Direct Flights from South India</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>Full Buffet Meals Included</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="p-6 pt-0 border-t border-surface-container mt-auto">
+<div class="flex items-baseline justify-between mb-4 pt-4">
+<span class="text-xs text-outline font-label-md uppercase">From</span>
+<span class="text-headline-sm font-headline-sm text-primary font-semibold">₹1,15,000 <span class="text-xs font-normal text-on-surface-variant">/ person</span></span>
+</div>
+<a class="w-full text-center bg-primary hover:bg-secondary text-secondary-fixed border border-secondary-fixed/40 py-2.5 rounded font-label-md text-label-md uppercase tracking-wider block transition-colors" href="#inquiryModal">
+            Enquire Package
+          </a>
+</div>
+</div>
+<!-- Package Card 2: Turkey Royal Heritage -->
+<div class="bg-surface-container-lowest border border-outline-variant/40 rounded flex flex-col justify-between hover:border-secondary transition-all duration-300 hover:shadow-xl group">
+<div>
+<div class="relative h-52 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="A picturesque landscape of Pamukkale white travertine terraces with mineral-rich thermal waters reflecting brilliant blue skies under Turkish sunshine, framed with editorial crispness and calm grandeur." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDRjNsCXUexPXlbGz3PIqttaQKjRB_xEF7a303PkNLBnD1rryDo9cS0K39NBUhoB-DHlSFQtrq7vuguZp0pJ9Hc2veUetQHkA5k1__y1DISl5-9R95pwoXtlXTAuQdHXx8xUySoOFOGLzFK-lQoi5m0Y1xzv4BEa55s-meW_Z888hIFpZz7yluydHV0nKtjTpGRu3U5IZNUefJQxfE_GHklPQH7rHUUueCuGOK8cmbD6py-KpUwd38zlTluGcJvNGcxJIFvug3hWZ9L')"></div>
+<div class="absolute top-3 right-3 bg-primary/85 backdrop-blur-md text-secondary-fixed px-3 py-1 rounded font-label-sm text-label-sm uppercase font-semibold border border-secondary-fixed/20">
+              9 Days / 8 Nights
+            </div>
+</div>
+<div class="p-6">
+<span class="text-[11px] font-semibold text-secondary uppercase tracking-widest">Cultural Imperial</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-1 mb-3">Turkey Royal Heritage</h3>
+<ul class="space-y-2.5 text-body-md text-on-surface-variant mb-6 text-sm">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>Istanbul, Cappadocia &amp; Pamukkale</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>Private Bosphorus Yacht Sunset</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>Hot Air Balloon Flight Access</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>English &amp; Tamil Tour Support</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="p-6 pt-0 border-t border-surface-container mt-auto">
+<div class="flex items-baseline justify-between mb-4 pt-4">
+<span class="text-xs text-outline font-label-md uppercase">From</span>
+<span class="text-headline-sm font-headline-sm text-primary font-semibold">₹1,45,000 <span class="text-xs font-normal text-on-surface-variant">/ person</span></span>
+</div>
+<a class="w-full text-center bg-primary hover:bg-secondary text-secondary-fixed border border-secondary-fixed/40 py-2.5 rounded font-label-md text-label-md uppercase tracking-wider block transition-colors" href="#inquiryModal">
+            Enquire Package
+          </a>
+</div>
+</div>
+<!-- Package Card 3: Dubai Arabian Elegance -->
+<div class="bg-surface-container-lowest border border-outline-variant/40 rounded flex flex-col justify-between hover:border-secondary transition-all duration-300 hover:shadow-xl group">
+<div>
+<div class="relative h-52 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="An exclusive private desert safari camp in Dubai with traditional Bedouin royal seating, glowing flame torches, and twilight purple sand dunes under an expansive starry Arabian night sky." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBOqCrSiMFRqzYVX5qw6ookPK-FrSJY3LYWBZKae3AXiggdxxscq3hA3Q9UOzGTPHUk6gFmND2KYJIQQ-9T6DyxPfTi80IAj4FrXb9HZ-y4SgtnuUYnuaFcAtiKd2xHYzDi4SAqsh5BFTds-DkJU0aC6Nuh-jaWHVtQUr6bvOimI3ySRlJfiLC6rzLtmyfqbAhMLcUGMWAaP1SaOPXoClwtHQx-W27sjqJv94QxdGcmKvMOzb2vt7YHTaByVwbsMp25p9Sz3Gp-uzkZ')"></div>
+<div class="absolute top-3 right-3 bg-primary/85 backdrop-blur-md text-secondary-fixed px-3 py-1 rounded font-label-sm text-label-sm uppercase font-semibold border border-secondary-fixed/20">
+              6 Days / 5 Nights
+            </div>
+</div>
+<div class="p-6">
+<span class="text-[11px] font-semibold text-secondary uppercase tracking-widest">Metropolitan Luxe</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-1 mb-3">Dubai Arabian Elegance</h3>
+<ul class="space-y-2.5 text-body-md text-on-surface-variant mb-6 text-sm">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>5-Star Downtown / Marina Hotel</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>Private 4x4 Dune &amp; Royal Dinner</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>Burj Khalifa Top Level &amp; Aquarium</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>Express UAE Visa Processing</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="p-6 pt-0 border-t border-surface-container mt-auto">
+<div class="flex items-baseline justify-between mb-4 pt-4">
+<span class="text-xs text-outline font-label-md uppercase">From</span>
+<span class="text-headline-sm font-headline-sm text-primary font-semibold">₹68,500 <span class="text-xs font-normal text-on-surface-variant">/ person</span></span>
+</div>
+<a class="w-full text-center bg-primary hover:bg-secondary text-secondary-fixed border border-secondary-fixed/40 py-2.5 rounded font-label-md text-label-md uppercase tracking-wider block transition-colors" href="#inquiryModal">
+            Enquire Package
+          </a>
+</div>
+</div>
+<!-- Package Card 4: Malaysia & Singapore Wonder -->
+<div class="bg-surface-container-lowest border border-outline-variant/40 rounded flex flex-col justify-between hover:border-secondary transition-all duration-300 hover:shadow-xl group">
+<div>
+<div class="relative h-52 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Gardens by the Bay in Singapore during twilight with giant Supertrees illuminated in vibrant emerald, blue, and golden glows, reflecting serenely across calm urban water ponds." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBcsxRGbDDDglzCg3qr0HVnrjwxfehkpxBXBYkhjEVNBkHNhYdtRx0pilzMK8C-A-gmFyu1LqHSQgIIfwy3BkuwTYhgwmGggNY4rz0l_MuxJTpoOlnZESVhr5U04rG1jCm5qZdS0bs0RkTXDJX63FJAXaSuUfAWStVA2U5XEVQ4yJHAhYXkLun3NUosfXZG94lGH1oPP9KK60GYNraBDmPRnNARjqL0J6q-YZlDQvE2Zpw7Y1toS3bVQuaNnMl19yGyEjUisBb7R3-Y')"></div>
+<div class="absolute top-3 right-3 bg-primary/85 backdrop-blur-md text-secondary-fixed px-3 py-1 rounded font-label-sm text-label-sm uppercase font-semibold border border-secondary-fixed/20">
+              7 Days / 6 Nights
+            </div>
+</div>
+<div class="p-6">
+<span class="text-[11px] font-semibold text-secondary uppercase tracking-widest">Tropical Escape</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-1 mb-3">Malaysia &amp; Singapore</h3>
+<ul class="space-y-2.5 text-body-md text-on-surface-variant mb-6 text-sm">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>Kuala Lumpur &amp; Genting Cable Car</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>Universal Studios &amp; Sentosa Island</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>Batu Caves &amp; Halal Dining Circuits</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check</span>
+<span>Cross-Border Luxury Coach</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="p-6 pt-0 border-t border-surface-container mt-auto">
+<div class="flex items-baseline justify-between mb-4 pt-4">
+<span class="text-xs text-outline font-label-md uppercase">From</span>
+<span class="text-headline-sm font-headline-sm text-primary font-semibold">₹79,000 <span class="text-xs font-normal text-on-surface-variant">/ person</span></span>
+</div>
+<a class="w-full text-center bg-primary hover:bg-secondary text-secondary-fixed border border-secondary-fixed/40 py-2.5 rounded font-label-md text-label-md uppercase tracking-wider block transition-colors" href="#inquiryModal">
+            Enquire Package
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 8. END-TO-END SERVICES MATRIX (4-COLUMN GRID) ==================== -->
+<section class="bg-primary text-surface py-24 border-t border-secondary/20" id="services">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary-fixed font-semibold">Comprehensive Facilitation</span>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-surface font-normal mt-2">
+            End-to-End Travel Services
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-surface-container-high max-w-md mt-4 md:mt-0 font-light">
+          From passport application processing to complex document attestation, our Melapalayam team guarantees frictionless paperwork.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Service 1 -->
+<div class="p-6 rounded bg-tertiary/60 border border-secondary/25 hover:border-secondary-fixed transition-all duration-300">
+<div class="w-12 h-12 rounded bg-primary-container text-secondary-fixed flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-2xl">flight</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-surface mb-2">Air Ticket Booking</h3>
+<p class="text-body-md text-surface-container-high text-sm font-light leading-relaxed">
+            Domestic &amp; international airlines with preferential group baggage allowance and direct connections from South India.
+          </p>
+</div>
+<!-- Service 2 -->
+<div class="p-6 rounded bg-tertiary/60 border border-secondary/25 hover:border-secondary-fixed transition-all duration-300">
+<div class="w-12 h-12 rounded bg-primary-container text-secondary-fixed flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-2xl">assignment_turned_in</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-surface mb-2">Saudi &amp; Global Visa</h3>
+<p class="text-body-md text-surface-container-high text-sm font-light leading-relaxed">
+            Express Saudi Tourist &amp; Umrah Visas (Nusuk platform authorized), Schengen, UK, Dubai, Malaysia &amp; Singapore entry permits.
+          </p>
+</div>
+<!-- Service 3 -->
+<div class="p-6 rounded bg-tertiary/60 border border-secondary/25 hover:border-secondary-fixed transition-all duration-300">
+<div class="w-12 h-12 rounded bg-primary-container text-secondary-fixed flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-2xl">mosque</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-surface mb-2">Hajj &amp; Umrah Operations</h3>
+<p class="text-body-md text-surface-container-high text-sm font-light leading-relaxed">
+            Authorized management, Haramain high-speed train tickets, Ziyarah circuits in Makkah, Madinah, Taif, and Badar.
+          </p>
+</div>
+<!-- Service 4 -->
+<div class="p-6 rounded bg-tertiary/60 border border-secondary/25 hover:border-secondary-fixed transition-all duration-300">
+<div class="w-12 h-12 rounded bg-primary-container text-secondary-fixed flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-2xl">badge</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-surface mb-2">Passport Online Services</h3>
+<p class="text-body-md text-surface-container-high text-sm font-light leading-relaxed">
+            Fresh passport submission, urgent Tatkaal bookings, renewal, police verification advisory, and slot management.
+          </p>
+</div>
+<!-- Service 5 -->
+<div class="p-6 rounded bg-tertiary/60 border border-secondary/25 hover:border-secondary-fixed transition-all duration-300">
+<div class="w-12 h-12 rounded bg-primary-container text-secondary-fixed flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-2xl">verified</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-surface mb-2">Certificate Attestation</h3>
+<p class="text-body-md text-surface-container-high text-sm font-light leading-relaxed">
+            MEA, Apostille, Saudi Embassy, UAE, Qatar, Kuwait attestation for degree certificates, marriage, and birth records.
+          </p>
+</div>
+<!-- Service 6 -->
+<div class="p-6 rounded bg-tertiary/60 border border-secondary/25 hover:border-secondary-fixed transition-all duration-300">
+<div class="w-12 h-12 rounded bg-primary-container text-secondary-fixed flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-2xl">airport_shuttle</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-surface mb-2">Luxury Fleet &amp; Transfers</h3>
+<p class="text-body-md text-surface-container-high text-sm font-light leading-relaxed">
+            Direct airport pickup/drop at Madurai, Trichy, and Chennai airports with luxury sedans and family vans.
+          </p>
+</div>
+<!-- Service 7 -->
+<div class="p-6 rounded bg-tertiary/60 border border-secondary/25 hover:border-secondary-fixed transition-all duration-300">
+<div class="w-12 h-12 rounded bg-primary-container text-secondary-fixed flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-2xl">currency_exchange</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-surface mb-2">Foreign Exchange (Forex)</h3>
+<p class="text-body-md text-surface-container-high text-sm font-light leading-relaxed">
+            Saudi Riyal (SAR), US Dollar (USD), UAE Dirham (AED), and multi-currency travel cards at competitive exchange rates.
+          </p>
+</div>
+<!-- Service 8 -->
+<div class="p-6 rounded bg-tertiary/60 border border-secondary/25 hover:border-secondary-fixed transition-all duration-300">
+<div class="w-12 h-12 rounded bg-primary-container text-secondary-fixed flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-2xl">health_and_safety</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-surface mb-2">Travel Insurance &amp; Medical</h3>
+<p class="text-body-md text-surface-container-high text-sm font-light leading-relaxed">
+            Comprehensive overseas health policies, flight cancellation protections, and emergency medical coordination abroad.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 9. TRUST, LEADERSHIP & HERITAGE ==================== -->
+<section class="max-w-7xl mx-auto px-6 py-24" id="leadership">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Proprietor Profile Card (5 Columns) -->
+<div class="lg:col-span-5 bg-surface-container-low border border-outline-variant/40 rounded p-8 relative">
+<div class="absolute -top-4 -right-4 bg-primary text-secondary-fixed px-4 py-1.5 rounded text-xs font-semibold uppercase tracking-wider border border-secondary-fixed/40">
+          Proprietor &amp; Founder
+        </div>
+<div class="w-24 h-24 rounded-full bg-primary text-secondary-fixed flex items-center justify-center text-4xl mb-6 shadow-md border-2 border-secondary">
+<span class="font-display-hero">AR</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-primary font-normal">A. Abdul Rahman</h3>
+<p class="text-secondary font-label-md text-label-md font-semibold tracking-wider uppercase mt-1 mb-4">
+          Proprietor, ALBASMA Tours &amp; Travels
+        </p>
+<p class="text-on-surface-variant text-body-md leading-relaxed mb-6 font-light">
+          “For over 15 years, our singular purpose has been to serve the guests of Allah with untainted honesty, uncompromising comfort, and familial warmth. From Melapalayam to the gates of the Haramain, your faith is our utmost trust.”
+        </p>
+<div class="border-t border-outline-variant/30 pt-4 space-y-2 text-sm text-on-surface">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">pin_drop</span>
+<span class="font-medium">Melapalayam, Tirunelveli, Tamil Nadu</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">verified</span>
+<span class="font-medium">100% Licensed &amp; Authorised Pilgrimage Agency</span>
+</div>
+</div>
+</div>
+<!-- Trust Credentials & Office Verification (7 Columns) -->
+<div class="lg:col-span-7">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">Steadfast Stewardship</span>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-primary font-normal mt-2 mb-6">
+          Honest Hospitality Grounded in Integrity
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 leading-relaxed">
+          Founded and anchored in Melapalayam, ALBASMA has steered thousands of families across South India to blessed sanctuaries and memorable world voyages without single hidden fee disputes.
+        </p>
+<!-- Metric Counter Badges -->
+<div class="grid grid-cols-3 gap-4 mb-8">
+<div class="border-l-2 border-secondary pl-4">
+<div class="text-headline-lg font-headline-lg text-primary font-bold">15+</div>
+<div class="text-xs uppercase tracking-wider text-outline font-label-md mt-1">Years Experience</div>
+</div>
+<div class="border-l-2 border-secondary pl-4">
+<div class="text-headline-lg font-headline-lg text-primary font-bold">100%</div>
+<div class="text-xs uppercase tracking-wider text-outline font-label-md mt-1">Transparent Billing</div>
+</div>
+<div class="border-l-2 border-secondary pl-4">
+<div class="text-headline-lg font-headline-lg text-primary font-bold">24/7</div>
+<div class="text-xs uppercase tracking-wider text-outline font-label-md mt-1">Ground Escort</div>
+</div>
+</div>
+<!-- Verified Head Office Box -->
+<div class="bg-surface-container-lowest border border-secondary/30 rounded p-6 shadow-sm">
+<div class="flex items-start gap-4">
+<div class="p-3 bg-primary-container text-secondary-fixed rounded shrink-0">
+<span class="material-symbols-outlined text-2xl">apartment</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-1">Registered Melapalayam Head Office</h4>
+<p class="text-body-md text-on-surface-variant font-light text-sm mb-3">
+                Mayan Building, 17, Kottikulam Bazar Road, Puthumanai Mohalla, Melapalayam, Tirunelveli, Tamil Nadu 627005.
+              </p>
+<div class="flex flex-wrap gap-4 text-xs font-semibold text-secondary">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span>Monday – Saturday: 9:30 AM – 9:00 PM</span>
+</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">local_shipping</span>
+<span>Passport &amp; Document Safe Courier</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== 10. BESPOKE CONCIERGE ENQUIRY FORM ==================== -->
+<section class="bg-primary text-surface py-20 relative overflow-hidden" id="inquiryModal">
+<div class="max-w-4xl mx-auto px-6 relative z-10">
+<div class="text-center mb-12">
+<span class="text-secondary-fixed font-label-sm text-label-sm uppercase tracking-widest font-semibold">Priority Concierge Desk</span>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-surface font-normal mt-2">
+          Plan Your Sacred Journey or Luxury Tour
+        </h2>
+<p class="text-surface-container-high font-body-md text-body-md max-w-xl mx-auto mt-3 font-light">
+          Submit your requirements directly to our Melapalayam operations team for a comprehensive quotation within 2 hours.
+        </p>
+</div>
+<div class="glass-editorial rounded-lg p-8 md:p-10 shadow-2xl">
+<form class="space-y-6" id="leadForm" onsubmit="handleFormSubmit(event)">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Full Name -->
+<div>
+<label class="block text-label-sm font-label-sm uppercase tracking-wider text-secondary-fixed mb-2">
+                Full Name *
+              </label>
+<input class="w-full bg-tertiary/90 border border-outline-variant/40 text-surface placeholder-surface-variant/50 text-body-md rounded px-4 py-3 focus:outline-none focus:border-secondary-fixed transition-colors" id="leadName" placeholder="Enter full name" required="" type="text"/>
+</div>
+<!-- Phone Number -->
+<div>
+<label class="block text-label-sm font-label-sm uppercase tracking-wider text-secondary-fixed mb-2">
+                Mobile / WhatsApp Number *
+              </label>
+<input class="w-full bg-tertiary/90 border border-outline-variant/40 text-surface placeholder-surface-variant/50 text-body-md rounded px-4 py-3 focus:outline-none focus:border-secondary-fixed transition-colors" id="leadPhone" placeholder="+91 XXXXX XXXXX" required="" type="tel"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Service Required -->
+<div>
+<label class="block text-label-sm font-label-sm uppercase tracking-wider text-secondary-fixed mb-2">
+                Primary Interest *
+              </label>
+<select class="w-full bg-tertiary/90 border border-outline-variant/40 text-surface text-body-md rounded px-4 py-3 focus:outline-none focus:border-secondary-fixed transition-colors appearance-none cursor-pointer" id="leadService">
+<option value="Hajj &amp; Umrah 5-Star">Hajj &amp; Umrah 5-Star Package</option>
+<option value="Turkey Cultural Tour">Turkey Cultural Heritage Tour</option>
+<option value="Dubai Luxury Holiday">Dubai Luxury Holiday</option>
+<option value="Malaysia &amp; Singapore">Malaysia &amp; Singapore Tour</option>
+<option value="Saudi Tourist / Umrah Visa">Saudi Tourist / Umrah Visa</option>
+<option value="Certificate Attestation">Certificate Attestation (MEA/Embassy)</option>
+<option value="Flight Ticketing">International Flight Ticketing</option>
+</select>
+</div>
+<!-- Departure City -->
+<div>
+<label class="block text-label-sm font-label-sm uppercase tracking-wider text-secondary-fixed mb-2">
+                Departure City
+              </label>
+<select class="w-full bg-tertiary/90 border border-outline-variant/40 text-surface text-body-md rounded px-4 py-3 focus:outline-none focus:border-secondary-fixed transition-colors appearance-none cursor-pointer" id="leadCity">
+<option value="Chennai">Chennai</option>
+<option value="Trichy">Tiruchirappalli (Trichy)</option>
+<option value="Madurai">Madurai</option>
+<option value="Bengaluru">Bengaluru</option>
+<option value="Other">Other City</option>
+</select>
+</div>
+<!-- Number of Travelers -->
+<div>
+<label class="block text-label-sm font-label-sm uppercase tracking-wider text-secondary-fixed mb-2">
+                Number of Travelers
+              </label>
+<input class="w-full bg-tertiary/90 border border-outline-variant/40 text-surface text-body-md rounded px-4 py-3 focus:outline-none focus:border-secondary-fixed transition-colors" id="leadTravellers" max="50" min="1" type="number" value="2"/>
+</div>
+</div>
+<!-- Notes -->
+<div>
+<label class="block text-label-sm font-label-sm uppercase tracking-wider text-secondary-fixed mb-2">
+              Specific Requirements (Hotel Preference, Travel Dates, Room Sharing)
+            </label>
+<textarea class="w-full bg-tertiary/90 border border-outline-variant/40 text-surface placeholder-surface-variant/50 text-body-md rounded px-4 py-3 focus:outline-none focus:border-secondary-fixed transition-colors" id="leadNotes" placeholder="Tell us if you require clock tower facing rooms, special wheelchair assistance, or specific travel dates..." rows="3"></textarea>
+</div>
+<!-- Action buttons -->
+<div class="flex flex-col sm:flex-row items-center gap-4 pt-2">
+<button class="w-full sm:w-1/2 bg-secondary hover:bg-secondary/90 text-on-secondary py-3.5 px-6 rounded font-label-md text-label-md uppercase tracking-wider font-semibold transition-all shadow-lg flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined text-lg">chat</span>
+<span>Submit via WhatsApp</span>
+</button>
+<button class="w-full sm:w-1/2 bg-primary-container hover:bg-tertiary text-secondary-fixed border border-secondary-fixed/50 py-3.5 px-6 rounded font-label-md text-label-md uppercase tracking-wider transition-all flex items-center justify-center gap-2" onclick="alert('Thank you. Our Melapalayam office will call you within 2 hours.');" type="button">
+<span class="material-symbols-outlined text-lg">mail</span>
+<span>Request Email Callback</span>
+</button>
+</div>
+<div class="text-center text-xs text-outline-variant">
+<span>🔒 Your privacy is honored. No spam. Direct consultation with our licensed travel team.</span>
+</div>
+</form>
+</div>
+</div>
+</section>
+<!-- ==================== 11. LUXURY EDITORIAL FOOTER ==================== -->
+<footer class="w-full bg-primary dark:bg-tertiary border-t border-secondary/20 dark:border-secondary-fixed/20 text-secondary-fixed dark:text-secondary-fixed">
+<div class="max-w-7xl mx-auto px-6 pt-16 pb-12">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+<!-- Column 1: Brand & Identity -->
+<div>
+<span class="font-display text-headline-md tracking-wider text-secondary-fixed uppercase block mb-3">
+            ALBASMA Tours &amp; Travels
+          </span>
+<p class="text-surface-container-high text-body-sm font-light leading-relaxed mb-6">
+            Ultra-luxury pilgrimage stewardship, bespoke international journeys, authorized Nusuk Saudi visas, and full-service attestation solutions based in Melapalayam.
+          </p>
+<div class="space-y-1.5 text-xs text-surface-container-high">
+<p><strong class="text-surface">Proprietor:</strong> A. Abdul Rahman</p>
+<p><strong class="text-surface">License:</strong> Licensed Pilgrimage &amp; Luxury Travel Agency</p>
+</div>
+</div>
+<!-- Column 2: Head Office & Desks -->
+<div>
+<h4 class="font-headline-sm text-headline-sm text-secondary-fixed mb-4">Offices &amp; Contacts</h4>
+<div class="space-y-3 text-body-sm text-surface-container-high font-light">
+<p class="leading-relaxed">
+<strong class="text-surface block">Head Office:</strong>
+              Mayan Building, 17, Kottikulam Bazar Road, Puthumanai Mohalla, Melapalayam, Tirunelveli, Tamil Nadu 627005.
+            </p>
+<div class="pt-2">
+<strong class="text-surface block">Direct Phone Lines:</strong>
+<div class="flex flex-col text-xs space-y-1 mt-1 text-surface">
+<a class="hover:text-secondary-fixed transition-colors" href="tel:+919677312228">+91 96773 12228</a>
+<a class="hover:text-secondary-fixed transition-colors" href="tel:+919789752100">+91 97897 52100</a>
+<a class="hover:text-secondary-fixed transition-colors" href="tel:+918610108633">+91 86101 08633</a>
+<a class="text-secondary-fixed font-semibold hover:underline" href="tel:+966530952100">+966 530952100 (Saudi KSA Desk)</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Column 3: Quick Navigation Links from JSON -->
+<div>
+<h4 class="font-headline-sm text-headline-sm text-secondary-fixed mb-4">Voyages &amp; Portals</h4>
+<ul class="space-y-2 text-label-sm font-label-sm">
+<li><a class="text-surface-container-high hover:text-secondary-fixed hover:translate-x-0.5 transition-all duration-200 inline-block" href="#sacred">Hajj Packages</a></li>
+<li><a class="text-surface-container-high hover:text-secondary-fixed hover:translate-x-0.5 transition-all duration-200 inline-block" href="#sacred">Umrah Concierge</a></li>
+<li><a class="text-surface-container-high hover:text-secondary-fixed hover:translate-x-0.5 transition-all duration-200 inline-block" href="#destinations">Europe Escapes</a></li>
+<li><a class="text-surface-container-high hover:text-secondary-fixed hover:translate-x-0.5 transition-all duration-200 inline-block" href="#destinations">Middle East Itineraries</a></li>
+<li><a class="text-surface-container-high hover:text-secondary-fixed hover:translate-x-0.5 transition-all duration-200 inline-block" href="#services">Saudi Tourist &amp; Umrah Visa</a></li>
+<li><a class="text-surface-container-high hover:text-secondary-fixed hover:translate-x-0.5 transition-all duration-200 inline-block" href="#services">Certificate Attestation</a></li>
+<li><a class="text-surface-container-high hover:text-secondary-fixed hover:translate-x-0.5 transition-all duration-200 inline-block" href="#inquiryModal">Privacy Policy</a></li>
+<li><a class="text-surface-container-high hover:text-secondary-fixed hover:translate-x-0.5 transition-all duration-200 inline-block" href="#inquiryModal">Terms of Service</a></li>
+</ul>
+</div>
+<!-- Column 4: Hours & Emergency Concierge -->
+<div>
+<h4 class="font-headline-sm text-headline-sm text-secondary-fixed mb-4">Concierge Support</h4>
+<p class="text-surface-container-high text-body-sm font-light mb-4">
+            Direct 24/7 ground assistance for our registered pilgrimage and holiday groups currently abroad.
+          </p>
+<div class="p-4 bg-tertiary-container/80 rounded border border-secondary/30 mb-4">
+<span class="text-xs uppercase tracking-wider text-secondary-fixed block font-semibold">Immediate WhatsApp Support</span>
+<a class="mt-2 text-sm text-surface flex items-center gap-1.5 hover:text-secondary-fixed transition-colors font-medium" href="https://wa.me/919677312228" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base">chat</span>
+<span>Chat with Melapalayam Desk</span>
+</a>
+</div>
+<span class="text-xs text-outline-variant block">Albasma Tours &amp; Travels operates with full transparency and verified pilgrim protection.</span>
+</div>
+</div>
+<!-- Copyright Bar verbatim from JSON -->
+<div class="pt-8 border-t border-secondary/20 flex flex-col md:flex-row items-center justify-between text-body-sm font-body-sm text-surface-container-high gap-4">
+<div>
+          © 2025 ALBASMA Tours &amp; Travels. Proprietor A. Abdul Rahman. All Rights Reserved. Licensed Pilgrimage &amp; Luxury Travel Agency.
+        </div>
+<div class="flex items-center space-x-6 text-xs text-surface-container-high">
+<a class="text-surface-container-high hover:text-secondary-fixed transition-colors" href="#inquiryModal">Terms of Service</a>
+<a class="text-surface-container-high hover:text-secondary-fixed transition-colors" href="#inquiryModal">Privacy Policy</a>
+<a class="text-secondary-fixed hover:underline flex items-center gap-1" href="#hero">
+<span>Back to top</span>
+<span class="material-symbols-outlined text-sm">arrow_upward</span>
+</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- ==================== INTERACTIVE JAVASCRIPT ==================== -->
+<script>
+    // --- Mobile Menu Toggle ---
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileDrawer = document.getElementById('mobileDrawer');
+    const menuIcon = document.getElementById('menuIcon');
+
+    if (mobileMenuBtn && mobileDrawer) {
+      mobileMenuBtn.addEventListener('click', () => {
+        const isHidden = mobileDrawer.classList.contains('hidden');
+        if (isHidden) {
+          mobileDrawer.classList.remove('hidden');
+          menuIcon.textContent = 'close';
+        } else {
+          mobileDrawer.classList.add('hidden');
+          menuIcon.textContent = 'menu';
+        }
+      });
+
+      // Close mobile drawer on link click
+      document.querySelectorAll('.mobile-nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileDrawer.classList.add('hidden');
+          menuIcon.textContent = 'menu';
+        });
+      });
+    }
+
+    // --- Hero Carousel Logic ---
+    const slideData = [
+      {
+        title: "DISCOVER THE SACRED. <br><span class=\"shimmer-gold italic font-serif\">JOURNEY WITH REVERENCE.</span>",
+        subtitle: "Curated 5-Star VIP Hajj & Umrah packages with Haramain high-speed rail, clock tower frontages, and direct on-ground leadership from Melapalayam."
+      },
+      {
+        title: "TIMELESS HERITAGE. <br><span class=\"shimmer-gold italic font-serif\">CURATED EXPEDITIONS.</span>",
+        subtitle: "Exclusive private Ottoman heritage, Bosphorus luxury yachts, and bespoke cultural itineraries across Turkey, Cappadocia, and beyond."
+      },
+      {
+        title: "BESPOKE LUXURY. <br><span class=\"shimmer-gold italic font-serif\">UNRIVALED HOSPITALITY.</span>",
+        subtitle: "Ultra-exclusive private desert camps, world-class five-star suites, and seamless chauffeur transfers across Dubai and global metropolises."
+      }
+    ];
+
+    let currentSlide = 0;
+    const totalSlides = 3;
+    let slideTimer;
+
+    function renderSlide(index) {
+      // Toggle backgrounds
+      for (let i = 0; i < totalSlides; i++) {
+        const slideEl = document.getElementById(`slide-${i}`);
+        if (slideEl) {
+          if (i === index) {
+            slideEl.classList.remove('opacity-0', 'pointer-events-none', 'scale-105');
+            slideEl.classList.add('opacity-100', 'scale-100');
+            slideEl.style.zIndex = '10';
+          } else {
+            slideEl.classList.remove('opacity-100', 'scale-100');
+            slideEl.classList.add('opacity-0', 'pointer-events-none', 'scale-105');
+            slideEl.style.zIndex = '0';
+          }
+        }
+      }
+
+      // Update text
+      const heroTitle = document.getElementById('heroTitle');
+      const heroSubtitle = document.getElementById('heroSubtitle');
+      const currentSlideNum = document.getElementById('currentSlideNum');
+
+      if (heroTitle && heroSubtitle && currentSlideNum) {
+        heroTitle.innerHTML = slideData[index].title;
+        heroSubtitle.textContent = slideData[index].subtitle;
+        currentSlideNum.textContent = `0${index + 1}`;
+      }
+
+      // Update Dots
+      const dots = document.querySelectorAll('.slide-dot');
+      dots.forEach((dot, dotIdx) => {
+        if (dotIdx === index) {
+          dot.className = "slide-dot w-8 h-1 bg-secondary-fixed rounded transition-all duration-300";
+        } else {
+          dot.className = "slide-dot w-3 h-1 bg-surface-variant/40 rounded transition-all duration-300";
+        }
+      });
+    }
+
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % totalSlides;
+      renderSlide(currentSlide);
+      resetSlideTimer();
+    }
+
+    function prevSlide() {
+      currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+      renderSlide(currentSlide);
+      resetSlideTimer();
+    }
+
+    function setSlide(index) {
+      currentSlide = index;
+      renderSlide(currentSlide);
+      resetSlideTimer();
+    }
+
+    function resetSlideTimer() {
+      clearInterval(slideTimer);
+      slideTimer = setInterval(nextSlide, 7000);
+    }
+
+    // Auto rotate slides
+    slideTimer = setInterval(nextSlide, 7000);
+
+    // --- WhatsApp Direct Inquiry Form Generator ---
+    function handleFormSubmit(event) {
+      event.preventDefault();
+      const name = document.getElementById('leadName').value;
+      const phone = document.getElementById('leadPhone').value;
+      const service = document.getElementById('leadService').value;
+      const city = document.getElementById('leadCity').value;
+      const travellers = document.getElementById('leadTravellers').value;
+      const notes = document.getElementById('leadNotes').value;
+
+      const message = `*Enquiry for ALBASMA Tours & Travels*%0A%0A*Name:* ${encodeURIComponent(name)}%0A*Phone:* ${encodeURIComponent(phone)}%0A*Service:* ${encodeURIComponent(service)}%0A*Departure City:* ${encodeURIComponent(city)}%0A*Number of Travelers:* ${encodeURIComponent(travellers)}%0A*Notes:* ${encodeURIComponent(notes || 'None')}%0A%0A_Sent via Albasma Web Portal_`;
+
+      const whatsappUrl = `https://wa.me/919677312228?text=${message}`;
+      window.open(whatsappUrl, '_blank');
+    }
+  </script>
+</body></html>
